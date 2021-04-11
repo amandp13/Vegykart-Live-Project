@@ -3,6 +3,6 @@
 - Startup India
 - Vocal for Local
 
-## Our team:
+## Our Team:
 
-![image](https://ibb.co/b6WqxYt)
+![image](https://i.ibb.co/ZfLt3v9/Whats-App-Image-2021-04-11-at-3-32-44-PM.jpg)
