@@ -2,7 +2,6 @@
 include("connection.php");
 error_reporting(0);
 
-
 require './phpmailer/PHPMailerAutoload.php';
 
 function send_email($sid, $svendor, $stitle, $sprice, $sqty, $spay_id, $spay_status, $sdel_status, $sship, $scust, $scust_ph, $scust_add, $scust_name){

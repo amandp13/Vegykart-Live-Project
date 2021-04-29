@@ -68,13 +68,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
-<a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
 			
-			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+		<div class="logo">
+			<h1><a href="index.php"><img src="images/vegykart.png" alt="logo" width="310" height="95">
+			<span>आपकी अपनी सब्जी मंडी</span></a></h1>
 			</div>
 			
 			<?php 
@@ -119,10 +119,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			
 			<div class="header-ri">
 				<ul class="social-top">
-					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="icon twitter"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://twitter.com/vegykart" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="icon twitter"><i class="fa fa-instagram" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=919431609503&amp;text=Hi there!" class="icon twitter"><i class="fa fa-whatsapp" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="mailto:shop.vegykart@gmail.com" class="icon twitter"><i class="fa fa-google-plus" aria-hidden="true"></i><span></span></a></li>
 				</ul>	
 			</div>
 		
@@ -135,31 +136,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </div>
   <!---->
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-           <a href="kitchen.php"><img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
-       
-        </div>
-        <div class="item">
-          <a href="care.php"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
-         
-        </div>
-        <div class="item">
-           <a href="hold.php"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
-          
-        </div>
-      </div>
-    
-    </div><!-- /.carousel -->
 
 <!--content-->
 <!-- <div class="kic-top ">
@@ -196,7 +172,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="product">
 		<div class="container">
 			<div class="spec ">
-				<h3>Kitchen Products</h3>
+				<h3>Products</h3>
 				<div class="ser-t">
 					<b></b>
 					<span><i></i></span>
@@ -597,7 +573,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			    });  
  		</script>
 
-	<!--		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content modal-info">
 						<div class="modal-header">
@@ -949,7 +925,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div> 
 				
 </body>
 </html>

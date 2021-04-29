@@ -68,13 +68,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
-<a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
 			
-			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Grocery Store<span>The Best Supermarket</span></a></h1>
+		<div class="logo">
+			<h1><a href="index.php"><img src="images/vegykart.png" alt="logo" width="310" height="95">
+			<span>आपकी अपनी सब्जी मंडी</span></a></h1>
 			</div>
 			<?php 
 			if(isset($_SESSION['customer']))
@@ -118,10 +118,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			
 			<div class="header-ri">
 				<ul class="social-top">
-					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="icon twitter"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://twitter.com/vegykart" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="icon twitter"><i class="fa fa-instagram" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=919431609503&amp;text=Hi there!" class="icon twitter"><i class="fa fa-whatsapp" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="mailto:shop.vegykart@gmail.com" class="icon twitter"><i class="fa fa-google-plus" aria-hidden="true"></i><span></span></a></li>
 				</ul>	
 			</div>
 		
@@ -161,11 +162,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			<div class="col-md-7 contact-left">
 				<h4>Contact Information</h4>
-				<p> Info ..... </p>
+				<p> Info  </p>
 				<ul class="contact-list">
-					<li> <i class="fa fa-map-marker" aria-hidden="true"></i> Address .... </li>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mart@mail.com">mart@gmail.com</a></li>
-					<li> <i class="fa fa-phone" aria-hidden="true"></i>+91 1234567890</li>
+					<li> <i class="fa fa-map-marker" aria-hidden="true"></i> Address :Makkawala, Dehradun- 248009 </li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mart@mail.com">shop.vegykart@gmail.com</a></li>
+					<li> <i class="fa fa-phone" aria-hidden="true"></i> +91 9027990962 </li>
 				</ul>
 				<div id="container">
 					<!--Horizontal Tab-->
@@ -188,7 +189,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<div class="map-grid">
 								<h5>Our Branches</h5>
 									<ul>
-										<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Address ..... </li>
+										<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Makkawala, Dehradun- 248009 </li>
 									</ul>
 								</div>
 							</div>
@@ -196,8 +197,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<div class="map-grid">
 									<h5>Contact Me Through</h5>
 									<ul>
-										<li>Mobile No : +91 123456 890</li>
-										<li>Office No : +123 222 2222</li>
+										<li>Mobile No : +91 9027990962 </li>
+										<li>Office No : +91 9431609503</li>
 									</ul>
 								</div>
 							</div>

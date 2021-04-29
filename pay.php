@@ -43,7 +43,7 @@ if($pay_type ==1){
 	        "send_email" => true,
 	        "email" => $cust_name,
 	        "allow_repeated_payments" => false,
-	        "redirect_url" => "http://localhost/big_store/web/pay_success.php",
+	        "redirect_url" => "http://localhost/Vegykart/pay_success.php",
 	        ));
 	    print_r($response);
 	    $pay_url=$response['longurl'];

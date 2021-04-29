@@ -205,7 +205,6 @@ if(!$mail->send()) {
 }
 }
 
-
 function send_email_admin($item, $qty, $pay_id, $svendor_name, $svendor_phone, $svendor_address, $sbuyer_name, $sbuyer_phone, $address){
 $mail = new PHPMailer;
 

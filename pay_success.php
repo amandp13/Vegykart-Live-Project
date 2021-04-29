@@ -185,8 +185,8 @@ if(!$mail->send()) {
 }
 ?>
 					<div class="text-center text-danger mb-2">
-						<button name="order" class="btn btn-danger" onclick='window.location.href = "http://localhost/big_store/web/order.php"'>Track your Order</button>
-						<button name="shopping" class="btn btn-success" onclick='window.location.href = "http://localhost/big_store/web/index.php"'>Continue Shoppping</button>
+						<button name="order" class="btn btn-danger" onclick='window.location.href = "http://localhost/Vegykart/order.php"'>Track your Order</button>
+						<button name="shopping" class="btn btn-success" onclick='window.location.href = "http://localhost/Vegykart/index.php"'>Continue Shoppping</button>
 					</div>
 
 					<?php
@@ -278,6 +278,7 @@ if(!$mail->send()) {
 			</div>
 		</div>
 	</div>
+
 
 </body>
 </html>

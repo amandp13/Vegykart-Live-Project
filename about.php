@@ -68,13 +68,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
-<a href="offer.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
 			
-			<div class="logo">
-				<h1 ><a href="index.php"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h1>
+		<div class="logo">
+			<h1><a href="index.php"><img src="images/vegykart.png" alt="logo" width="310" height="95">
+			<span>आपकी अपनी सब्जी मंडी</span></a></h1>
 			</div>
 			<?php 
 			if(isset($_SESSION['customer']))
@@ -118,14 +118,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			
 			<div class="header-ri">
 				<ul class="social-top">
-					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="icon twitter"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://twitter.com/vegykart" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="icon twitter"><i class="fa fa-instagram" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=919431609503&amp;text=Hi there!" class="icon twitter"><i class="fa fa-whatsapp" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="mailto:shop.vegykart@gmail.com" class="icon twitter"><i class="fa fa-google-plus" aria-hidden="true"></i><span></span></a></li>
 				</ul>	
 			</div>
-		
-
 				<?php include_once("top.php"); ?>
 					
 				</div>
@@ -137,7 +136,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <div class="banner-top">
 	<div class="container">
 		<h3 >About</h3>
-		<h4><a href="index.php">Home</a><label>/</label>About</h4>
+		<h4><a href="index.php">Home</a><label>/</label>About Us</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
@@ -159,13 +158,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 			
 			<div class="col-md-4 about-right">
-			<img class="img-responsive" src="images/ab.jpg" alt="">
+			<img class="img-responsive" src="images/fruits.jpg" alt="">
 			</div>
 			<div class="col-md-4 about-left">
-				<p> About us .....................  </p>
+				<p> We Believe in providing you with the Best, Fresh and Supreme Quality Fruits and Vegetables and much more... 
+				</p>
+				<p>We are the students of <mark>DIT University</mark> and our goal is to <mark>#VocalforLocal</mark></p>
 			</div>
 			<div class="col-md-4 about-right">
-			<img class="img-responsive" src="images/ab1.jpg" alt="">
+			<img class="img-responsive" src="images/vegytables.jpg" alt="">
 			</div>
 			
 			<div class="clearfix"> </div>
@@ -174,149 +175,21 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--//about-->
 	
 	<!--work-experience-->
-<!-- 	<div  class="work">
+	<div  class="work">
 		<div class="container">
 			<div class="spec spec-w3ls">
-				<h3>Our Journey</h3>
+				<h3>Our Team Members</h3>
 					<div class="ser-t">
 						<b></b>
 						<span><i></i></span>
 						<b class="line"></b>
 					</div>
 			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<div class=" work-w3 "> 
-						<h5> May 2012</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<div class=" work-w31"> 
-						<h5> November 2012</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="clearfix"> </div>
-				<span> 2012</span>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<div class=" work-w3 "> 
-						<h5> June 2013</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<div class=" work-w31"> 
-						<h5>December 2013</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="clearfix"> </div>
-				<span> 2013</span>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<div class=" work-w3 "> 
-						<h5> April 2014</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<div class=" work-w31"> 
-						<h5> August 2014</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="clearfix"> </div>
-				<span> 2014</span>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<div class=" work-w3 "> 
-						<h5> February 2015</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<div class=" work-w31"> 
-						<h5> July 2015</h5>
-						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
-					</div>
-					<label></label>
-				</div>
-				<div class="clearfix"> </div>
-				<span> 2015</span>
-				<span class="last"> 2016</span>
-			</div>
+			<center><img class="img-responsive" src="images/team.png"  alt="team members"></center>
 		</div>
-	</div> -->
-	<!--//work-experience-->
-<!--advantages--> 
-<!-- <div class="container">
-	<div class="advantages">
-			<div class="col-md-6 advantages-left ">
-				<h3>Our Advantages</h3>
-				<div class="advn-one">
-						<div class="ad-mian">
-							<div class="ad-left">
-								<p>1</p>
-							</div>
-							<div class="ad-right">
-								<h4><a href="single.php">Elacus a porta varius dui</a></h4>
-								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. </p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="ad-mian">
-							<div class="ad-left">
-								<p>2</p>
-							</div>
-							<div class="ad-right">
-								<h4><a href="single.php">Elacus a porta varius dui</a></h4>
-								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. </p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="ad-mian">
-							<div class="ad-left">
-								<p>3</p>
-							</div>
-							<div class="ad-right">
-								<h4><a href="single.php">Elacus a porta varius dui</a></h4>
-								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. </p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-			</div>
-			<div class="col-md-6 advantages-left about-agi">
-				<h3>Our Skills</h3>
-			<div class="advn-two">
-						<h4><a href="single.php"> eu tincidunt lacinia, elit quam ultri ces ipsum, quis ultricies ipsum ante</a></h4>
-						<p>Donec sagittis interdum tellus sed bibendum. Aen ean fringilla ut lacus eu vehicula. Curabitur non nibh quis nisi vestibulum aliquet non sed dolor. Ut est risus, consectetur sit amet pretium in, cursus in dui. Donec ac rhoncus libero.</p>
-						<ul>
-							<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Praesent vestibulum molestie lacus</a></li>
-							<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Donec sagittis interdum tellus</a></li>
-							<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Nulla consectetur adipiscing</a></li>
-							<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Donec ac rhoncus libero.</a></li>
-							<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Erci eu tincidunt lacinia</a></li>
-						</ul>
-			</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-		</div> -->
-	<!--advantages--> 
-
+	</div> 
+	
+<hr>
 	</div>
 	<!-- // Terms of use -->
 

@@ -18,9 +18,9 @@ $cust= $_SESSION['customer'];
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="kitchen.php">About us</a></li>
-				<li><a href="care.php">Fruits</a></li>
-				<li><a href="snacks.php">Vegytables</a></li>
-				<li><a href="bake.php">Groceries</a></li>  
+				<li><a href="kitchen.php">Fruits</a></li>
+				<li><a href="kitchen.php">Vegytables</a></li>
+				<li><a href="kitchen.php">Groceries</a></li>  
 				<li><a href="contact.php">Contact Us</a></li>
 			</ul>
 		</div>
@@ -29,7 +29,7 @@ $cust= $_SESSION['customer'];
 			<ul>
 				<li><a href="shipping.php">Shipping</a></li>
 				<li><a href="terms.php">Terms & Conditions</a></li>
-				<li><a href="faqs.php">FAQs</a></li>
+				<li><a href="shipping.php">FAQs</a></li>
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="offer.php">Online Shopping</a></li>						 
 				 
@@ -70,13 +70,13 @@ $cust= $_SESSION['customer'];
 			<h1><a href="index.php"><img src="images/vegykart.png" alt="logo" width="350" height="95"></h1></a>
 			<br>
 			<h2><span style="color:yellow;">आपकी अपनी सब्जी मंडी</span></h2>
-				<p class="fo-para"> We Believe in providing you with the Best, Fresh and Supreme Quality products for your daily kitchen, household and much more</p>
+				<p class="fo-para"> We Believe in providing you with the Best, Fresh and Supreme Quality products for your daily kitchen, household and much more...</p>
 				<ul class="social-fo">
-					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="twi"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="twi"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="twi"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/vegykart" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/vegykart.wale/" class="twi"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="https://api.whatsapp.com/send?phone=919431609503&amp;text=Hi there!" class="twi"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:shop.vegykart@gmail.com" class="twi"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 				</ul>
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
@@ -95,7 +95,7 @@ $cust= $_SESSION['customer'];
 					</div>
 			</div>
 		<div class="copy-right">
-			<p> &copy; 2021 Vegykart. All Rights Reserved  </a></p>
+			<p> &copy; <a href="https://w3layouts.com/">2021</a> Vegykart. All Rights Reserved  </a></p>
 		</div>
 	</div>
 </div>

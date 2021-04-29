@@ -57,5 +57,4 @@ include "./templates/top.php";
 </div>
 
 <?php include "./templates/footer.php"; ?>
-
 <script type="text/javascript" src="./js/admin.js"></script>

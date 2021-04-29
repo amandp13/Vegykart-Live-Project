@@ -15,5 +15,4 @@ if($conn){
 else{
 	die("Connection failed ".mysql_connect_error());
 }
-
 ?>

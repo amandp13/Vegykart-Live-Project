@@ -19,41 +19,29 @@
                                 <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Fruits<b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi">
                                     <div class="row">
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-4">
                                             <ul class="multi-column-dropdown">
             
-                                                <li><a href="item.php?name=water_and_beverages"><i class="fa fa-angle-right" aria-hidden="true"></i>Water and Beverages</a></li>
-                                                <li><a href="item.php?name=fruits_and_vegetables"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
-                                                <li><a href="item.php?name=staples"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
-                                                <li><a href="item.php?name=branded_food"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Special Offer</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>All Fruits</a></li>
+                                                <li><a href="kitchen.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
+                                                <li><a href="offer.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Special order</a></li>
                                         
                                             </ul>
                                         
                                         </div>
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-4">
                                         
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=breakfast_and_cereal"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
-                                                <li><a href="item.php?name=snacks"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
-                                                <li><a href="item.php?name=spices"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
-                                                <li><a href="item.php?name=biscuit_and_cookies"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
-                                                <li><a href="item.php?name=sweets"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
-                                        
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Seasonal</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>International Fruits</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Non-Seasonal</a></li>
                                             </ul>
                                         
                                         </div>
-                                        <div class="col-sm-3">
-                                        
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=pickle_and_condiment"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle & Condiment</a></li>
-                                                <li><a href="item.php?name=instant_food"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
-                                                <li><a href="item.php?name=dryfruit"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
-                                                <li><a href="item.php?name=water_and_beverages"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
-                                        
-                                            </ul>
-                                        </div>
+                        
                                         <div class="col-sm-3 w3l">
-                                            <a href="kitchen.php"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                            <a href="kitchen.php"><img src="images/fruits.jpg" class="img-responsive" alt=""></a>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div>  
@@ -64,39 +52,30 @@
                                 <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Vegetables <b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi multi1">
                                     <div class="row">
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-4">
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=ayurvedic"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
-                                                <li><a href="item.php?name=babycare"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
-                                                <li><a href="item.php?name=cosmetics"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
-                                                <li><a href="item.php?name=deo_and_perfumes"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Purfumes</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Special Offer</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>All Vegetables</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
+                                                <li><a href="offer.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Special order</a></li>
                                         
                                             </ul>
                                             
                                         </div>
-                                        <div class="col-sm-3">
+                                        <div class="col-sm-4">
                                             
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=haircare"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
-                                                <li><a href="item.php?name=oralcare"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
-                                                <li><a href="item.php?name=personal_hygiene"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
-                                                <li><a href="item.php?name=skincare"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
+                                                <li><a href="kitchen.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Seasonal </a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Non-Seasonal</a></li>
+                                                <li><a href="kitchen.php"><i class="fa fa-angle-right" aria-hidden="true"></i>International</a></li>
+                                          
                                         
                                             </ul>
                                             
                                         </div>
-                                        <div class="col-sm-3">
-                                            
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=fashion_accessories"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
-                                                <li><a href="item.php?name=grooming_tools"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
-                                                <li><a href="item.php?name=shaving_needs"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
-                                                <li><a href="item.php?name=sanitary_needs"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
-                                        
-                                            </ul>
-                                        </div>
+                                      
                                         <div class="col-sm-3 w3l">
-                                            <a href="care.php"><img src="images/me1.png" class="img-responsive" alt=""></a>
+                                            <a href="kitchen.php"><img src="images/vegytables.jpg" class="img-responsive" alt=""></a>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div>  
@@ -110,10 +89,10 @@
                                 <div class="row">
                                     <div class="col-sm-3">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="item.php?name=ayurvedic"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
-                                            <li><a href="item.php?name=babycare"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
-                                            <li><a href="item.php?name=cosmetics"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
-                                            <li><a href="item.php?name=deo_and_perfumes"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Purfumes</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Purfumes</a></li>
                                     
                                         </ul>
                                         
@@ -121,10 +100,10 @@
                                     <div class="col-sm-3">
                                         
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="item.php?name=haircare"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
-                                            <li><a href="item.php?name=oralcare"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
-                                            <li><a href="item.php?name=personal_hygiene"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
-                                            <li><a href="item.php?name=skincare"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
+                                            <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
                                     
                                         </ul>
                                         
@@ -132,110 +111,25 @@
                                     <div class="col-sm-3">
                                         
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="item.php?name=fashion_accessories"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
-                                            <li><a href="item.php?name=grooming_tools"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
-                                            <li><a href="item.php?name=shaving_needs"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
-                                            <li><a href="item.php?name=sanitary_needs"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
+                                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
                                     
                                         </ul>
                                     </div>
                                     <div class="col-sm-3 w3l">
-                                        <a href="care.php"><img src="images/me1.png" class="img-responsive" alt=""></a>
+                                        <a href="kitchen.php"><img src="images/me1.png" class="img-responsive" alt=""></a>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>  
                             </ul>
                         </li>
-
-                            <li class="dropdown">
+                        <li><a href="https://play.google.com/store" class="hyper"><span>Download Our App</span></a></li>
+                            <li><a href="https://covid19alive.netlify.app/" class="hyper"><span>Covid-19 Guidelines</span></a></li>
+                            <li><a href="about.php" class="hyper"><span>About Us</span></a></li>
                             
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Snacks and Drinks <b class="caret"></b></span></a>
-                                <ul class="dropdown-menu multi multi1">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=noodles_and_pasta"><i class="fa fa-angle-right" aria-hidden="true"></i> Noodles and Pasta </a></li>
-                                                <li><a href="item.php?name=breakfast_and_cereal"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast Cereals</a></li>
-                                                <li><a href="item.php?name=biscuit_and_cookies"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuits and Cookies</a></li>
-                                        
-                                            </ul>
-                                            
-                                        </div>
-                                        <div class="col-sm-3">
-                                            
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=sauces_and_ketchups"> <i class="fa fa-angle-right" aria-hidden="true"></i>Sauces and Ketchups </a></li>
-                                                <li><a href="item.php?name=chocolates_and_candies"><i class="fa fa-angle-right" aria-hidden="true"></i>Chocolates and Candies</a></li>
-                                                <li><a href="item.php?name=frozen_veggies"><i class="fa fa-angle-right" aria-hidden="true"></i>Frozen Veggies</a></li>
-                                        
-                                            </ul>
-                                            
-                                        </div>
-                                        <div class="col-sm-3">
-                                            
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=snacks"><i class="fa fa-angle-right" aria-hidden="true"></i> Snacks and Namkeen </a></li>
-                                                <li><a href="item.php?name=pickle_and_condiment"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickles and Chutneys</a></li>
-                                                <li><a href="item.php?name=indian_mithai"><i class="fa fa-angle-right" aria-hidden="true"></i>Indian Mithai</a></li>
-                                        
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3 w3l">
-                                            <a href="snacks.php"><img src="images/me1.png" class="img-responsive" alt=""></a>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>  
-                                </ul>
-                            </li>
-
-
-
-
-                            <li class="dropdown">
-                            
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Daily Needs <b class="caret"></b></span></a>
-                                <ul class="dropdown-menu multi multi1">
-                                    <div class="row">
-                                        <div class="col-sm-3">
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=breads_and_buns"><i class="fa fa-angle-right" aria-hidden="true"></i> Breads and Buns </a></li>
-                                                <li><a href="item.php?name=dairy"><i class="fa fa-angle-right" aria-hidden="true"></i>Dairy </a></li>
-                                                <li><a href="item.php?name=cakes_and_pastries"><i class="fa fa-angle-right" aria-hidden="true"></i>Cakes and Pastries </a></li>
-                                                <li><a href="item.php?name=rusk_and_khari"><i class="fa fa-angle-right" aria-hidden="true"></i>Cookies, Rusk and Khari</a></li>
-                                        
-                                            </ul>
-                                            
-                                        </div>
-                                        <div class="col-sm-3">
-                                            
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=eggs"> <i class="fa fa-angle-right" aria-hidden="true"></i>Eggs </a></li>
-                                                <li><a href="item.php?name=poultry"><i class="fa fa-angle-right" aria-hidden="true"></i>Poultry</a></li>
-                                                <li><a href="item.php?name=mutton_and_lamb"><i class="fa fa-angle-right" aria-hidden="true"></i>Mutton and Lamb</a></li>                                        
-                                            </ul>
-                                            
-                                        </div>
-                                        <div class="col-sm-3">
-                                            
-                                            <ul class="multi-column-dropdown">
-                                                <li><a href="item.php?name=fish_and_seafood"><i class="fa fa-angle-right" aria-hidden="true"></i> Fish and Seafood </a></li>
-                                                <li><a href="item.php?name=pork_and_others"><i class="fa fa-angle-right" aria-hidden="true"></i>Pork and Other Meats </a></li>
-                                                <li><a href="item.php?name=icecream"><i class="fa fa-angle-right" aria-hidden="true"></i>Ice- Creams and Desserts</a></li>                                      
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-3 w3l">
-                                            <a href="bake.php"><img src="images/me1.png" class="img-responsive" alt=""></a>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>  
-                                </ul>
-                            </li>
-
-
-                            <li><a href="contact.php" class="hyper"><span>About Us</span></a></li>
-                            
-<!--                            <li><a href="codes.php" class="hyper"> <span>FAQs</span></a></li>
- -->                            <li><a href="contact.php" class="hyper"><span>Contact Us</span></a></li>
+                            <li><a href="contact.php" class="hyper"><span>Contact Us</span></a></li>
                         </ul>
                     </div>
                     </nav>
