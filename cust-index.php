@@ -152,28 +152,26 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="tab-head ">
 				<nav class="nav-sidebar">
 					<ul class="nav tabs ">
-					  <li class="active"><a href="#tab1" data-toggle="tab">Staples</a></li>
-					  <li class=""><a href="#tab2" data-toggle="tab">Snacks</a></li> 
-					  <li class=""><a href="#tab3" data-toggle="tab">Fruits & Vegetables</a></li>  
+					  <li ><a class="" href="#tab3" data-toggle="tab">Staples</a></li> 
+					  <li class="active"><a href="#tab3" data-toggle="tab">Fruits & Vegetables</a></li>  
+					  <li class=""><a href="#tab3" data-toggle="tab">Groceries</a></li>
+					  <!-- <li class=""><a href="#tab4" data-toggle="tab">Breakfast & Cereal</a></li> -->
 					</ul>
 				</nav>
 
-
-
-
 				<div class=" tab-content tab-content-t ">
-					<div class="tab-pane active text-style" id="tab1">
+					<div class="tab-pane  text-style" id="tab1">
 						<div class=" con-w3l">
 						<?php 
-								$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
+								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
 								$data= mysqli_query($conn, $q);
 								$total= mysqli_num_rows($data);
 								while($res= mysqli_fetch_assoc($data)){
 								if($total > 0){
 									$vendor= $res['email'];
-								}
+								}*/
 
-								$q2= "SELECT * FROM products WHERE vendor_name='$vendor' AND product_cat=17 LIMIT 4";
+								$q2= "SELECT * FROM products WHERE product_cat=17 LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -192,7 +190,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 											</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+											<p ><label> Rs <?php echo $res2['product_price'] +5;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
@@ -212,7 +210,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<?php
 									} 
-								}
+								
 								?>
 							<div class="clearfix"></div>
 						 </div>
@@ -220,16 +218,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="tab-pane  text-style" id="tab2">
 						<div class=" con-w3l">
 						<?php 
-								$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
+								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
 								$data= mysqli_query($conn, $q);
 								$total= mysqli_num_rows($data);
 								while($res= mysqli_fetch_assoc($data)){
 								if($total > 0){
 									$vendor= $res['email'];
-								}
+								}*/
 
 								/*echo $vendor;*/
-								$q2= "SELECT * FROM products WHERE vendor_name='$vendor' AND product_cat=20 LIMIT 4";
+								$q2= "SELECT * FROM products WHERE product_cat=20 LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -268,24 +266,24 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<?php 
 								}
-							}
+							
 								?>
 							<div class="clearfix"></div>
 						 </div>	  
 					</div>
-					<div class="tab-pane  text-style" id="tab3">
+					<div class="tab-pane active  text-style" id="tab3">
 						<div class=" con-w3l">
 						<?php 
-								$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
+								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
 								$data= mysqli_query($conn, $q);
 								$total= mysqli_num_rows($data);
 								while($res= mysqli_fetch_assoc($data)){
 								if($total > 0){
 									$vendor= $res['email'];
-								}
+								}*/
 
 								/*echo $vendor;*/
-								$q2= "SELECT * FROM products WHERE vendor_name='$vendor' AND product_cat=16 LIMIT 4";
+								$q2= "SELECT * FROM products WHERE product_cat=16 LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -324,7 +322,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<?php 
 								}
-							}
+							
 								?>
 							<div class="clearfix"></div>
 						 </div>		  
@@ -332,16 +330,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="tab-pane text-style" id="tab4">
 							<div class=" con-w3l">
 						<?php 
-								$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
+								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
 								$data= mysqli_query($conn, $q);
 								$total= mysqli_num_rows($data);
 								while($res= mysqli_fetch_assoc($data)){
 								if($total > 0){
 									$vendor= $res['email'];
-								}
+								}*/
 
 								/*echo $vendor;*/
-								$q2= "SELECT * FROM products WHERE vendor_name='$vendor' AND product_cat=19 LIMIT 4";
+								$q2= "SELECT * FROM products WHERE product_cat=19 LIMIT 4";
 								$data2= mysqli_query($conn, $q2);
 								$total2= mysqli_num_rows($data2);
 								
@@ -380,7 +378,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<?php 
 								}
-							}
 								?>
 							<div class="clearfix"></div>
 						 </div>	
@@ -392,6 +389,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	</div>
 	</div>
 
+
 <!--content-->
 <div class="content-mid">
 	<div class="container">
@@ -399,11 +397,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md1 ">
 				<a href="kitchen.php">
-					<img src="images/co1.jpg" class="img-responsive img" alt="">
+					<img src="images/fruits.jpg" style="opacity:0.7;" class="img-responsive img" alt="">
 					<div class="big-sa">
-						<h6>New Collections</h6>
-						<h3>Season<span>ing </span></h3>
-						<p>Choose the Best Variety of Cereals </p>
+						<h3 style="color:navy;">Fruits</h3>
+						<p style="color:black;">Choose the Best Quality Fruits</p>
 					</div>
 				</a>
 			</div>
@@ -411,11 +408,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="col-md-4 m-w3ls1">
 			<div class="col-md ">
 				<a href="hold.php">
-					<img src="images/co.jpg" class="img-responsive img" alt="">
+					<img src="images/vegytables.jpg" style="opacity:0.8;" class="img-responsive img" alt="">
 					<div class="big-sale">
 						<div class="big-sale1">
-							<h3>Big <span>Sale</span></h3>
-							<p>Get the Best Quality at a Whooping Discount </p>
+							<h3 style="color:navy;">Vegetable</h3>
+							<p style="color:black;">Choose the Best Quality Vegytables.</p>
 						</div>
 					</div>
 				</a>
@@ -424,19 +421,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md2 ">
 				<a href="kitchen.php">
-					<img src="images/co2.jpg" class="img-responsive img1" alt="">
-					<div class="big-sale2">
-						<h3>Cooking <span>Oil</span></h3>
-						<p>Healthy Oils make Great Diet </p>		
+					<img src="images/grocery.jpg" class="img-responsive img1" alt="">
+					<div class="big-sale2">		
 					</div>
 				</a>
 			</div>
 			<div class="col-md3 ">
-				<a href="hold.php">
+				<a href="kitchen.php">
 					<img src="images/co3.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale3">
-						<h3>Vegeta<span>bles</span></h3>
-						<p>Get Fresh Seasonal Vegetables Delivered at your Doorstep </p>
+					<h3>Grocer<span>ies</span></h3>
+						<p> Coming Soon </p>
 					</div>
 				</a>
 			</div>
@@ -456,15 +451,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-         <a href="kitchen.php"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+         <a href="kitchen.php"> <img class="first-slide" src="images/aaa.jpg" alt="First slide"></a>
        
         </div>
         <div class="item">
-         <a href="care.php"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
+         <a href="care.php"> <img class="second-slide " src="images/aaaa.jpg" alt="Second slide"></a>
          
         </div>
         <div class="item">
-          <a href="hold.php"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
+          <a href="hold.php"><img class="third-slide " src="images/aaaaa.jpg" alt="Third slide"></a>
           
         </div>
       </div>
@@ -472,10 +467,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
     </div><!-- /.carousel -->
 
 <!--content-->
-	<div class="product">
+<div class="product">
 		<div class="container">
 			<div class="spec ">
-				<h3>Special Offers</h3>
+				<h3>Thank You! </h3>
 				<div class="ser-t">
 					<b></b>
 					<span><i></i></span>
@@ -483,7 +478,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</div>
 			</div>
 				<div class=" con-w3l">
-					<?php 
+				
+							<?php 
 								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
 								$data= mysqli_query($conn, $q);
 								$total= mysqli_num_rows($data);
@@ -498,39 +494,53 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								$total2= mysqli_num_rows($data2);
 								
 								while($res2= mysqli_fetch_assoc($data2)){
-						?>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">								
-									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img" id="<?php echo $res2['product_id']; ?>">
-										<?php echo "<img src='images/".$res2['product_image']."'>";?> 
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6>
-												<?php echo $res2['product_title'];?>
-											</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label> Rs <?php echo $res2['product_price'] +20;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										<?php 
-										$s= "images/";
-										$ext= $res2['product_image'];
-										$image= $s.$ext;
-										?>
-										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
-										</div>
+						// ?>
+						<!-- // 	<div class="col-md-3 pro-1">
+						// 		<div class="col-m">								
+						// 			<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img" id="<?php echo $res2['product_id']; ?>">
+						// 				<?php echo "<img src='images/".$res2['product_image']."'>";?> 
+						// 			</a>
+						// 			<div class="mid-1">
+						// 				<div class="women">
+						// 					<h6>
+						// 						<?php echo $res2['product_title'];?>
+						// 					</h6>							
+						// 				</div>
+						// 				<div class="mid-2">
+						// 					<p ><label> Rs <?php echo $res2['product_price'] +10;?></label><em class="item_price"> Rs <?php echo $res2['product_price'];?></em></p>
+						// 					  <div class="block">
+						// 						<div class="starbox small ghosting"> </div>
+						// 					</div>
+						// 					<div class="clearfix"></div>
+						// 				</div>
+						// 				<?php 
+						// 				$s= "images/";
+						// 				$ext= $res2['product_image'];
+						// 				$image= $s.$ext;
+						// 				?>
+						// 				<div class="add">
+						// 				   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="<?php echo $res2['product_id']; ?>" data-name= "<?php echo $res2['product_title'];?>"data-summary="summary 1" data-price="<?php echo $res2['product_price'];?>" data-quantity="1" data-image="<?php echo $image; ?>">Add to Cart</button>
+						// 				</div>
 										
-									</div>
-								</div>
-							</div>
+						// 			</div>
+						// 		</div>
+						// 	</div> -->
 							<?php 
 								}
+								?>
+								
+								<div class="jumbotron text-center">
+  <p class="lead"><strong>✨ Yes, </strong> We've worked super hard to make you happy and healthier.✨</p>
+  <blockquote>😊 &rdquo; People who love to eat are always the best people.&rdquo;😊</blockquote>
+    <cite>-Anonymous</cite>
+  <hr>
+  <p>
+    Have Any Feedback/Suggestions?
+  </p>
+  <p class="lead">
+    <a class="btn btn-primary btn-sm" href="https://forms.gle/DazXrLDZZDTHouR46" role="button">Feedback</a>
+  </p>
+</div>
 								?>
 							<!-- <div class="col-md-3 pro-1">
 								<div class="col-m">

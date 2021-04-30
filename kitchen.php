@@ -136,39 +136,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </div>
   <!---->
 
-
-<!--content-->
-<!-- <div class="kic-top ">
-	<div class="container ">
-	<div class="kic ">
-			<h3>Popular Categories</h3>
-			
-		</div>
-		<div class="col-md-4 kic-top1">
-			<a href="single.php">
-				<img src="images/ki.jpg" class="img-responsive" alt="">
-			</a>
-			<h6>Dal</h6>
-			<p>Dal Desc ... </p>
-		</div>
-		<div class="col-md-4 kic-top1">
-			<a href="single.php">
-				<img src="images/ki1.jpg" class="img-responsive" alt="">
-			</a>
-			<h6>Snacks</h6>
-			<p>Snacks Desc ... </p>
-		</div>
-		<div class="col-md-4 kic-top1">
-			<a href="single.php">
-				<img src="images/ki2.jpg" class="img-responsive" alt="">
-			</a>
-			<h6>Spice</h6>
-			<p>Spice Desc ... </p>
-		</div>
-	</div>
-</div> -->
-
-<!--content-->
 		<div class="product">
 		<div class="container">
 			<div class="spec ">

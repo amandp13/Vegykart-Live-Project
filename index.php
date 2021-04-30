@@ -132,15 +132,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="tab-head ">
 				<nav class="nav-sidebar">
 					<ul class="nav tabs ">
-					  <li class="active"><a href="#tab1" data-toggle="tab">Staples</a></li> 
-					  <li class=""><a href="#tab3" data-toggle="tab">Fruits & Vegetables</a></li>  
-					  <li class=""><a href="#tab2" data-toggle="tab">Groceries</a></li>
+					  <li ><a class="" href="#tab3" data-toggle="tab">Staples</a></li> 
+					  <li class="active"><a href="#tab3" data-toggle="tab">Fruits & Vegetables</a></li>  
+					  <li class=""><a href="#tab3" data-toggle="tab">Groceries</a></li>
 					  <!-- <li class=""><a href="#tab4" data-toggle="tab">Breakfast & Cereal</a></li> -->
 					</ul>
 				</nav>
 
 				<div class=" tab-content tab-content-t ">
-					<div class="tab-pane active text-style" id="tab1">
+					<div class="tab-pane  text-style" id="tab1">
 						<div class=" con-w3l">
 						<?php 
 								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
@@ -251,7 +251,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<div class="clearfix"></div>
 						 </div>	  
 					</div>
-					<div class="tab-pane  text-style" id="tab3">
+					<div class="tab-pane active  text-style" id="tab3">
 						<div class=" con-w3l">
 						<?php 
 								/*$q = "SELECT v.email from vendors v JOIN  customers c ON v.pincode= c.pincode WHERE c.email='$cust'";
